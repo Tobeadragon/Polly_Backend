@@ -22,7 +22,7 @@
 ## Benefits
 
 - stetige Verbesserung bzw. Anpassung des Angebots
-<img src="https://media.giphy.com/media/KetrHvz4qwcxZdni1O/giphy.gif">
+
 
 <img src="https://media.giphy.com/media/KetrHvz4qwcxZdni1O/giphy.gif">
 
@@ -122,6 +122,7 @@
 
 - language api
 - freien Text Antworten
+- focus auf accessible friendly
 
 
 Made with ❤️ by
