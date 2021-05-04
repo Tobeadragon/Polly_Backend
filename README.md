@@ -96,7 +96,7 @@
     ```
 
 ### Backend
-[Link Backend](https://github.com/Tobeadragon/Polly_Backend)
+[Link GitHub Backend](https://github.com/Tobeadragon/Polly_Backend)
 
 
 1. ```
