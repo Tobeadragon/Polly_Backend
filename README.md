@@ -17,7 +17,7 @@
 
 #### Umfrageteilnehmer:
 
-- der Umfrageteilnehmer bekommt seinen individuellen Link oder QR Code vom Umfrageersteller zugesendet
+- der Umfrageteilnehmer bekommt seinen individuellen Link oder QR Code vom Umfrageersteller zugesendet, durch welchen er Zugang zur Umfrage erhält
 
 ## Benefits
 
