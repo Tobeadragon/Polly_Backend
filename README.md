@@ -1,12 +1,10 @@
-# Polly Umfrageservice <img src="parrot.png">
+# <img src="./img/pollylogo.png" width="50px"> Polly Umfrageservice 
 
 
 ## Über uns
 
 - Sie mögen kein Stillstand, sondern wollen sich stetig weiter entwickeln?
 - Kein Problem, wir sind für Sie da!
-
-<img src="https://media.giphy.com/media/KetrHvz4qwcxZdni1O/giphy.gif">
 
 ## Wie funktioniert es?
 
@@ -24,6 +22,8 @@
 ## Benefits
 
 - stetige Verbesserung bzw. Anpassung des Angebots
+
+<img src="https://media.giphy.com/media/KetrHvz4qwcxZdni1O/giphy.gif">
 
 ## Tech Stack
 
@@ -75,7 +75,8 @@
 [Live Demo](https://polly-frontend.herokuapp.com/)
 </br>
 <p>
-<img src="coming-soon.jpg" alt="coming-soon" width="600px"/>
+<img src="./img/desktop-polly.jpeg" alt="polly-desktop" width="600px"/>
+<img src="./img/phone-polly.jpeg" alt="polly-phone" width="200px"/>
 </p>
 
 ## Setup
@@ -119,7 +120,10 @@
    Enjoy
 
     ```
+### Future Features
 
+- language api
+- freien Text Antworten
 
 Made with ❤️ by
 
