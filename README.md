@@ -81,17 +81,17 @@
 ### Frontend
 [Link GitHub Frontend](https://github.com/Tobeadragon/Polly_Frontend)
 
-1. ```
+ ```
    clone repository
    ```
-2. ```
+ ```
    cd <your-repository-name>
    npm install
    ```
-3. ```
+ ```
    npm start
    ```
-4. ```
+ ```
    Enjoy
 
     ```
