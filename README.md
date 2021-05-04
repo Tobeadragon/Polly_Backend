@@ -28,7 +28,7 @@
 
 - Frontend: React | Bootstrap | .....
 - Backend: Express | MongoDB | Node | JWT
-- Tools: Git | Virtual Studio Code | Postman
+- Tools: Git | Visual Studio Code | Postman
 
 
 <p align="left">
