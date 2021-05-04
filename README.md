@@ -10,7 +10,7 @@
 
 #### Umfrageersteller:
 
-- Nutzerprofil anlegen: 
+- Nutzerprofil anlegen
 - danach können Sie ihre individuellen Umfragen anlegen (dabei bestimmen Sie die Länge der Umfrage, die Anzahl der Fragen und      Antwortoptionen) - wir helfen wir Ihnen mit unseren Best Practice Tipps zur Umfrageerstellung
 - nach dem Anlegen der Umfrage bekommen Sie von uns ihren individuellen Umfragelink, sowie QR Code, welchen Sie an ihren Kunden weiterleiten können
 - unter ihrem persönlichen Nutzerprofil können Sie jederzeit die Auswertung der Umfrage, sowie die Anzahl der Umfrageteilnehmer auf unseren Umfragecharts abfragen
