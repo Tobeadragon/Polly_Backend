@@ -26,6 +26,16 @@ const umfrageIDGetController = async (req, res, next)=>{
         }
 }
 
+const umfrageIDDeleteController = async (req, res, next)=>{
+    try{
+        const {id} = req.params;
+        let umfrageDel = await Umfrage.deleteOne({_id:id});
+        res.status(200).send(umfrageDel)
+    }catch(error){
+        res.status(500).send('Error @ DELETE/todo')
+    }
+}
+
 
 
 
@@ -35,6 +45,6 @@ const umfrageIDGetController = async (req, res, next)=>{
 
 
 
-module.exports = { umfrageUserGetController, umfrageIDGetController}
+module.exports = { umfrageUserGetController, umfrageIDGetController, umfrageIDDeleteController}
 
 

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth')
-const {umfrageUserGetController,umfrageIDGetController}=require('../controller/umfrage_controller')
+const {umfrageUserGetController,umfrageIDGetController, umfrageIDDeleteController}=require('../controller/umfrage_controller')
 
 
 
@@ -14,6 +14,10 @@ router
     .route('/:id')
     //  .get(auth,umfrageIDGetController)
      .get(umfrageIDGetController)
+
+router
+    .route('/:id')
+        delete(auth,umfrageIDDeleteController)
 
 
 

@@ -45,11 +45,10 @@ const userPostController = async (req, res, next) => {
 
 
 
-// Loggin ***********************************
+// Login ***********************************
 
 const userEinloggen = async (req,res,next) =>{
     let nutzer=req.body
-    //let mailklein= nutzer.email.toLowercase();
     let mailklein= nutzer.email
     try{
         let userVonDatenbank=await User.findOne({email:mailklein})
