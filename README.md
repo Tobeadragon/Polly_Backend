@@ -81,25 +81,24 @@
 ### Frontend
 [Link GitHub Frontend](https://github.com/Tobeadragon/Polly_Frontend)
 
- ```
+1. ```
    clone repository
    ```
- ```
+2. ```
    cd <your-repository-name>
    npm install
    ```
- ```
+3. ```
    npm start
    ```
- ```
+4. ```
    Enjoy
-
     ```
 
 ### Backend
-[Link GitHub Backend](https://github.com/Tobeadragon/Polly_Backend)
+[Link Backend](https://github.com/Tobeadragon/Polly_Backend)
 
-    
+
 1. ```
    clone repository
    ```
@@ -109,15 +108,14 @@
    ```
 3. ```
    create .env with clientID, clientSecret (Google Login), JWT, mongodb connection
-
 4. ```
    npm run watch
 
     ```
 4. ```
    Enjoy
-
     ```
+
 
 
 Made with ❤️ by
