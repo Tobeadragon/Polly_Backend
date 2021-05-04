@@ -79,7 +79,7 @@
 
 ## Setup
 ### Frontend
-[Link Frontend](https://github.com/Tobeadragon/Polly_Frontend)
+[Link GitHub Frontend](https://github.com/Tobeadragon/Polly_Frontend)
 
 1. ```
    clone repository
@@ -97,7 +97,7 @@
     ```
 
 ### Backend
-[Link Backend](https://github.com/Tobeadragon/Polly_Backend)
+[Link GitHub Backend](https://github.com/Tobeadragon/Polly_Backend)
 
     
 1. ```
