@@ -6,8 +6,6 @@
 - Sie mögen kein Stillstand, sondern wollen sich stetig weiter entwickeln?
 - Kein Problem, wir sind für Sie da!
 
-<img src="https://media.giphy.com/media/KetrHvz4qwcxZdni1O/giphy.gif">
-
 ## Wie funktioniert es?
 
 #### Umfrageersteller:
@@ -24,6 +22,7 @@
 ## Benefits
 
 - stetige Verbesserung bzw. Anpassung des Angebots
+<img src="https://media.giphy.com/media/KetrHvz4qwcxZdni1O/giphy.gif">
 
 ## Tech Stack
 
