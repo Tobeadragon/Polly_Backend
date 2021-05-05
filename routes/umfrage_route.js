@@ -9,10 +9,8 @@ router
     .route('/')
      .get(auth,umfrageUserGetController)
 
-     //Double Check!!!!!!!!!! AUTH
 router
     .route('/:id')
-    //  .get(auth,umfrageIDGetController)
      .get(umfrageIDGetController)
 
 router

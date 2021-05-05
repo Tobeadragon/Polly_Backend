@@ -16,20 +16,20 @@ const validUser = [
     .not()
     .isEmpty()
     .isLength({min:2})
-    .withMessage('Please enter a name.')
+    .withMessage('Bitte geben Sie einen Namen ein.')
     .trim()
     .escape(),
   check('email')
     .isEmail()
-    .withMessage('Not a valid email.')
+    .withMessage('Keine gültige E-Mail Adresse.')
     .trim()
     .normalizeEmail(),
   check('password')
     .not()
     .isEmpty()
     .isLength({min:8})
-    .withMessage('Your password needs to have 8 characters.')
-    .matches('[0-9]').withMessage('Your password must contain a number')
+    .withMessage('Ihr Passwort muss auch 8 Zeichen bestehen.')
+    .matches('[0-9]').withMessage('Ihr Passwort muss eine Zahl beinhalten.')
     .trim()
     .escape(),
     

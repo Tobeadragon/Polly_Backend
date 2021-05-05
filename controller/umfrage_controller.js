@@ -32,7 +32,7 @@ const umfrageIDDeleteController = async (req, res, next)=>{
         let umfrageDel = await Umfrage.deleteOne({_id:id});
         res.status(200).send(umfrageDel)
     }catch(error){
-        res.status(500).send('Error @ DELETE/todo')
+        res.status(500).send(error)
     }
 }
 

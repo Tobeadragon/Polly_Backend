@@ -68,7 +68,7 @@ const userEinloggen = async (req,res,next) =>{
                 name:userVonDatenbank.name
             })
         }else{
-            res.status(401).send('password is invalid')
+            res.status(401).send('Passwort ist ungültig.')
         }
     }catch(error){
            res.status(401).send('Du konntest nicht eingeloggt werden. error von catch'+error);

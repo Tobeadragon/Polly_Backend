@@ -10,7 +10,7 @@ const validUmfrage = [
     check('titel')
       .not()
       .isEmpty()
-      .withMessage('Survey has no titel.')
+      .withMessage('Ihre Umfrage hat keinen Titel.')
       .trim()
       .escape(),
 ]
