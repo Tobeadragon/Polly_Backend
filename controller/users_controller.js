@@ -79,6 +79,7 @@ const userEinloggen = async (req,res,next) =>{
 //google-auth-library package imported verifies tokenId
 const userEinloggenGoogle = (req, res, next) => {
     const { tokenId } = req.body;
+    console.log("body",req.body);
     client.verifyIdToken({ idToken: tokenId, audience: "640190674721-6u63fj5osev01q9m5tkm96j9o91h88ur.apps.googleusercontent.com" })
         .then(response => {
             const { email, name } = response.payload;
@@ -99,7 +100,8 @@ const userEinloggenGoogle = (req, res, next) => {
                 }).catch(err => {
                     console.error(err)
                     return res.status(400).json({
-                        error: "Something went wrong!"
+                        error: "Something went wrong!",
+                        msg:"User not found"
                     })
                 })
             } else {
@@ -118,7 +120,8 @@ const userEinloggenGoogle = (req, res, next) => {
                 }).catch(err => {
                     console.error(err)
                     return res.status(400).json({
-                        error: "Something went wrong!"
+                        error: "Something went wrong!",
+                        msg:"could not create user"
                     })
                 })
             }
