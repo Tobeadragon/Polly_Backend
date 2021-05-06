@@ -43,10 +43,10 @@ router
         
 
 router.route('/login')
-        .post(auth,userEinloggen)
+        .post(userEinloggen)
 
 router.route('/googlelogin')
-        .post(auth,userEinloggenGoogle)
+        .post(userEinloggenGoogle)
 
 
 
