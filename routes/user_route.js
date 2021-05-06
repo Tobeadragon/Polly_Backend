@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { check }  = require('express-validator')
-const auth = require('../middleware/auth');
+
 
 
 //check normalize Email!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -29,7 +29,7 @@ const validUser = [
     .not()
     .isEmpty()
     .isLength({min:8})
-    .withMessage('Ihr Passwort muss auch 8 Zeichen bestehen.')
+    .withMessage('Ihr Passwort muss aus 8 Zeichen bestehen.')
     .matches('[0-9]').withMessage('Ihr Passwort muss eine Zahl beinhalten.')
     .trim()
     .escape(),

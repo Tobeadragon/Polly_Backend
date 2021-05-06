@@ -49,6 +49,8 @@
 &nbsp;
 <img alt="MongoDB" width="45px" src="https://camo.githubusercontent.com/d977c37fe74bd2ea7c56f086c9d0b2cb8d34d1a2/68747470733a2f2f7777772e636c6f7564612e63612f77702d636f6e74656e742f75706c6f6164732f323031332f30332f6d6f6e676f64622d6c6f676f2e706e67" />
 &nbsp;
+<img alt="Mongoose" width="45px"src="https://i.pinimg.com/originals/44/41/64/4441646c9a48d218d6aec8a356a2369c.jpg" />
+&nbsp;
 <img alt="API" width="55px" src="https://imgur.com/RLLIr4m.png" />
 &nbsp;
 <img alt="JSON" width="65px"src="https://imgur.com/lXP1Rph.png" />
