@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { check }  = require('express-validator')
+const auth = require('../middleware/auth');
 
 
 //check normalize Email!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -42,10 +43,10 @@ router
         
 
 router.route('/login')
-        .post(userEinloggen)
+        .post(auth,userEinloggen)
 
 router.route('/googlelogin')
-        .post(userEinloggenGoogle)
+        .post(auth,userEinloggenGoogle)
 
 
 
