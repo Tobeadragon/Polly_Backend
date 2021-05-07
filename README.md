@@ -1,3 +1,6 @@
+<!-- Used for the "back to top" links within the document -->
+<div id="contents"></div>
+
 # <img src="./img/pollylogo.png" width="50px"> Polly Umfrageservice 
 
 
@@ -28,8 +31,8 @@
 
 ## Tech Stack
 
-- Frontend: React | Bootstrap | .....
-- Backend: Express | MongoDB | Node | JWT
+- Frontend: React | Reactstrap | Recharts
+- Backend: Express | MongoDB | Mongoose | Node | JWT |
 - Tools: Git | Visual Studio Code | Postman
 
 
@@ -41,7 +44,7 @@
 <img alt="JavaScript" width="45px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 &nbsp;
 <img alt="React" width="45px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-<img alt="Bootstrap" width="55px" src="https://i.pinimg.com/originals/c1/78/5d/c1785d50a929254419fa4aad0560b058.png" />
+<img alt="Reactstrap" width="55px" src="https://res.cloudinary.com/practicaldev/image/fetch/s--8nVJEXFD--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/t7bts10h3z2024aszrmf.png" />
 &nbsp;
 <img alt="Node.js" width="45px" src="https://imgur.com/JAXgTMA.png" />
 &nbsp;
@@ -64,7 +67,7 @@
 &nbsp;
 <img alt="Visual Studio Code" width="45px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
 &nbsp;
-<img alt="Photoshop" width="45px" src="https://imgur.com/NpYquS6.png" />
+<img alt="Gimp" width="55px" src="https://cdn.iconscout.com/icon/free/png-512/gimp-5-1175224.png" />
 &nbsp;
 <img alt="Figma" width="55px" src="https://imgur.com/OPIlW8p.png" />
 &nbsp;
@@ -73,7 +76,7 @@
 </p>
 
 
-## Preview:
+## Preview
 
 [Live Demo](https://polly-frontend.herokuapp.com/)
 </br>
@@ -84,7 +87,8 @@
 
 ## Setup
 ### Frontend
-[Link GitHub Frontend](https://github.com/Tobeadragon/Polly_Frontend)
+[Link GitHub Backend](https://github.com/Tobeadragon/Polly_Backend)
+
 
 1. ```
    clone repository
@@ -101,8 +105,7 @@
     ```
 
 ### Backend
-[Link GitHub Backend](https://github.com/Tobeadragon/Polly_Backend)
-
+[Link GitHub Frontend](https://github.com/Tobeadragon/Polly_Frontend)
 
 1. ```
    clone repository
@@ -112,7 +115,7 @@
    npm install
    ```
 3. ```
-   create .env with clientID, clientSecret (Google Login), JWT, mongodb connection
+   create .env with clientID, clientSecret (<- Google Login), mongo (<- mongodb connection), JWT
 4. ```
    npm run watch
 
@@ -120,12 +123,14 @@
 4. ```
    Enjoy
     ```
+
 ### Future Features
 
 - language api
 - freien Text Antworten
 - focus auf accessible friendly
 
+<sub>[⇧ back to top](#contents)</sub>
 
 Made with ❤️ by
 
@@ -133,5 +138,7 @@ Made with ❤️ by
 - [Fatih](https://github.com/Fatihh53)
 - [Elham](https://github.com/elhamhashemi56)
 - [Mandy](https://github.com/MandyNeumeyer)
+
+
 
 

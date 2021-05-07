@@ -1,7 +1,7 @@
 /** Mongoose Modul importieren  */
 const mongoose = require("mongoose");
 /** simpler Adressstring: Protokoll ://  Host : Port / Datenbank  */
-let addressString = process.env.mongo || "mongodb+srv://elham:premnitz78@cluster0.55otw.mongodb.net/PollDB";
+let addressString = process.env.mongo
 let optionen = { useNewUrlParser: true, useUnifiedTopology: true };
 const verbindeDB = () => {
     /** Verbindung für das Mongoose Modul herstellen mit connect */
