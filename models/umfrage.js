@@ -7,6 +7,7 @@ const UmfrageSchema = new Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: "User",
       },
+    date:String
 });
 
 module.exports = mongoose.model("Umfrage", UmfrageSchema);
