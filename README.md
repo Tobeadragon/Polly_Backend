@@ -132,7 +132,7 @@
 
 <sub>[⇧ back to top](#contents)</sub>
 
-Made with ❤️ by
+Made with ❤️ and JavaScript by
 
 - [Tatsuya](https://github.com/Tobeadragon)
 - [Fatih](https://github.com/Fatihh53)

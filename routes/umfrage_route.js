@@ -15,7 +15,7 @@ router
 
 router
     .route('/:id')
-        delete(auth,umfrageIDDeleteController)
+        .delete(auth,umfrageIDDeleteController)
 
 
 
