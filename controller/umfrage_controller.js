@@ -17,9 +17,11 @@ const umfrageUserGetController = async (req, res, next)=>{
 const umfrageIDGetController = async (req, res, next)=>{
         try{ 
             const {id} = req.params;
+            timestamp = id.toString().substring(0,8);
+            date = new Date( parseInt( timestamp, 16 ) * 1000 );
             let umfrageMitID = await Umfrage.find({_id:id});
             let alleFragenUmfrage = await Frage.find({umfrage:umfrageMitID});
-            res.status(200).send(alleFragenUmfrage)
+            res.status(200).send({alleFragenUmfrage, date})
 
         }catch(error){
             res.status(500).send(error)
