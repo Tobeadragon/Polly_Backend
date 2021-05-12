@@ -82,7 +82,7 @@
 </br>
 <p>
 <img src="./img/desktop-polly.jpeg" alt="polly-desktop" width="600px"/>
-<img src="./img/phone-polly.jpeg" alt="polly-phone" width="200px"/>
+<img src="./img/phone-auswertung.png" alt="polly-phone" width="200px"/>
 </p>
 
 ## Setup
