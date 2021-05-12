@@ -126,9 +126,10 @@
 
 ### Future Features
 
-- language api
-- freien Text Antworten
-- focus auf accessible friendly
+- language api - App in verschiedenen Sprachen nutzbar machen
+- Barrierefreiheit
+- Datum hinzufügen, wann die Umfrage angelegt wurde
+- Auswertung der Antworten über Zeiträume
 
 <sub>[⇧ back to top](#contents)</sub>
 
